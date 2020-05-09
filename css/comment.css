@@ -1,0 +1,563 @@
+/* ================================================
+commment-setting
+================================================ */
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.font-7 {
+    font-size: 7px;
+}
+
+[data-dpr="2"] .font-7 {
+    font-size: 14px;
+}
+
+[data-dpr="3"] .font-7 {
+    font-size: 21px;
+}
+
+.font-9 {
+    font-size: 9px;
+}
+
+[data-dpr="2"] .font-9 {
+    font-size: 18px;
+}
+
+[data-dpr="3"] .font-9 {
+    font-size: 27px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+[data-dpr="2"] .font-10 {
+    font-size: 20px;
+}
+
+[data-dpr="3"] .font-10 {
+    font-size: 30px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+[data-dpr="2"] .font-12 {
+    font-size: 24px;
+}
+
+[data-dpr="3"] .font-12 {
+    font-size: 36px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+[data-dpr="2"] .font-13 {
+    font-size: 26px;
+}
+
+[data-dpr="3"] .font-13 {
+    font-size: 39px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+[data-dpr="2"] .font-14 {
+    font-size: 28px;
+}
+
+[data-dpr="3"] .font-14 {
+    font-size: 42px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+[data-dpr="2"] .font-15 {
+    font-size: 30px;
+}
+
+[data-dpr="3"] .font-15 {
+    font-size: 45px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+[data-dpr="2"] .font-16 {
+    font-size: 32px;
+}
+
+[data-dpr="3"] .font-16 {
+    font-size: 48px;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+[data-dpr="2"] .font-17 {
+    font-size: 34px;
+}
+
+[data-dpr="3"] .font-17 {
+    font-size: 51px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+[data-dpr="2"] .font-18 {
+    font-size: 36px;
+}
+
+[data-dpr="3"] .font-18 {
+    font-size: 54px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
+[data-dpr="2"] .font-19 {
+    font-size: 38px;
+}
+
+[data-dpr="3"] .font-19 {
+    font-size: 57px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+[data-dpr="2"] .font-20 {
+    font-size: 40px;
+}
+
+[data-dpr="3"] .font-20 {
+    font-size: 60px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+[data-dpr="2"] .font-25 {
+    font-size: 50px;
+}
+
+[data-dpr="3"] .font-25 {
+    font-size: 75px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+[data-dpr="2"] .font-26 {
+    font-size: 52px;
+}
+
+[data-dpr="3"] .font-26 {
+    font-size: 78px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-38 {
+    font-size: 38px;
+}
+
+.main-container .swiper-pagination .swiper-pagination-bullet {
+    width: 0.3667rem;
+    height: 0.02667rem;
+    margin: 0 0.0667rem;
+    border-radius: 0px;
+}
+
+ .dialog-message {
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 0.2rem 0;
+}
+
+[data-dpr="2"] .dialog-message {
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 0.2rem 0;
+}
+
+[data-dpr="3"] .dialog-message {
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 0.2rem 0;
+}
+
+.add-bottom {
+    margin-bottom: 0.2rem;
+}
+
+/* .main-container .layui-layer .layui-layer-content {
+    font-size: 20px;
+}
+
+[data-dpr="2"] .layui-layer .layui-layer-content {
+    font-size: 40px;
+}
+
+[data-dpr="3"] .layui-layer .layui-layer-content {
+    font-size: 60px;
+} */
+
+
+.layui-layer .layui-layer-setwin .layui-layer-close {
+    background: url('/mp/h5/assets/layer/theme/default/close.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.layui-layer .layui-layer-setwin .layui-layer-close2 {
+    background: url('/mp/h5/assets/layer/theme/default/close.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+body::after{
+    content: "";
+    background: url(/mp/h5/img/black.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: absolute;
+}
+
+/* ================================================
+header-setting
+================================================ */
+/* #header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 100%;
+}  */
+
+#top-bar {
+    position: fixed;
+    overflow: hidden;
+    z-index: 999;
+    top: -2px;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.4rem 0.62rem 0.4rem 0.62rem;
+    margin-bottom: -1.9rem;
+    /* transition: height 0.5s, margin-bottom 0.5s, background-color 0.5s; */
+    border-bottom: 1px solid #777777;
+}
+
+#top-bar img.title-logo {
+    width: 2.667rem;
+    /* width: 1.8rem; */
+    height: 1.8rem;
+    margin-top: 1px;
+}
+
+#top-bar img.menu-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    transition: height 0.5s, width 0.5s, transform 0.5s ease-out;
+    opacity: 0.9;
+}
+
+#top-bar img.menu-btn.close {
+    width: 0.6rem;
+    height: 0.6rem;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+
+#top-bar img.menu-btn.option {
+    width: 0.6rem;
+    height: 0.48rem;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+
+#top-bar img.menu-btn.close.disapear {
+    height: 0;
+    width: 0;
+    z-index: 22;
+}
+
+#top-bar img.menu-btn.option.disapear {
+    height: 0;
+    width: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    z-index: 21;
+}
+
+#menu-top-bar {
+    position: relative;
+}
+
+ul.menu-bar {
+    /* margin-top: 0.533333rem; */
+}
+
+ul.menu-bar li {
+    border-bottom: 1px solid #979797;
+    color: #efefef;
+    line-height: 1.2933333rem;
+    height: 1.2933333rem;
+    font-size: 17px;
+}
+
+ul.menu-bar li a {
+    display: block;
+    color: #000000;
+    width: 100%;
+}
+
+[data-dpr="2"] ul.menu-bar li {
+    font-size: 34px;
+}
+
+[data-dpr="3"] ul.menu-bar li {
+    font-size: 51px;
+}
+
+ul.menu-bar li:last-child {
+    position: relative;
+    border-bottom: 0;
+    color: #4A90E2;
+}
+
+.download-link span:nth-child(1){
+    font-weight: bold;
+}
+
+span.download-btn {
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.48rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: url('/mp/h5/img/download.png');
+    background-size: cover;
+}
+
+/* ================================================
+footer
+================================================ */
+
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* border-bottom: 1px solid #000000; */
+}
+
+.footer .footer-top {
+    background-color: #3F3F3F;
+    padding-top: 0.3467rem;
+    padding-left: 0.6667rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer .footer-top h1 {
+    color: #FFFFFF;
+}
+
+.footer .footer-top p {
+    color: #CCCCCC;
+    margin-top: 0.2rem;
+}
+
+.footer .footer-bottom {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    height: 0.8rem;
+    text-align: center;
+    /* border-bottom: 1px solid #000000; */
+}
+
+.footer .footer-bottom p {
+    color: #777777;
+    padding-top: 0.25rem;
+}
+
+.footer .footer-bottom p a {
+    color: #777777;
+    margin-left: 0.23333rem;
+}
+
+/*下载MP 开始*/
+#download-mp {
+    height: 13rem;
+    background: #F4F4F4;
+    overflow: hidden;
+}
+
+#download-mp .download-title {
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+}
+
+#download-mp .download-title:first-child {
+    padding-top: 0.56rem;
+}
+
+[data-dpr="2"] #download-mp .download-title {
+    font-size: 34px;
+}
+
+[data-dpr="3"] #download-mp .download-title {
+    font-size: 51px;
+}
+
+#download-mp .mp-font {
+    color: #4A90E2;
+}
+
+#download-mp .download-buttons {
+    height: 0.77rem;
+    padding: 0 2.0rem;
+    margin-top: 0.466667rem;
+    width: 100%;
+    text-align: center;
+}
+
+#download-mp a.positive-btn {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+#download-mp a.base-btn {
+    display: inline-block;
+    border-radius: 0.106667rem;
+    text-align: center;
+}
+
+#download-mp .download-buttons .base-btn:first-child {
+    float: left;
+}
+
+.download-buttons .base-btn:last-child {
+    float: right;
+}
+
+#download-mp .download-buttons .base-btn {
+    width: 2.64rem;
+    height: 0.77rem;
+    line-height: 0.77rem;
+    font-size: 13px;
+    padding-left: .08rem;
+}
+
+[data-dpr="2"] #download-mp .download-buttons .base-btn {
+    font-size: 26px;
+}
+
+[data-dpr="3"] #download-mp .download-buttons .base-btn {
+    font-size: 39px;
+}
+
+#download-mp .download-buttons .base-btn img {
+    width: 0.35rem;
+    vertical-align: -5px;
+}
+
+[data-dpr="2"] #download-mp .download-buttons .base-btn img {
+    vertical-align: -4px;
+}
+
+[data-dpr="3"] #download-mp .download-buttons .base-btn img {
+    vertical-align: -12px;
+}
+
+#download-mp .download-desc {
+    padding: 0.59rem 0 0.75rem;
+    font-size: 10px;
+    color: #a8a8a8;
+    clear: both;
+    text-align: center;
+}
+
+[data-dpr="2"] #download-mp .download-desc {
+    font-size: 20px;
+}
+
+[data-dpr="3"] #download-mp .download-desc {
+    font-size: 30px;
+}
+
+#download-mp .download-img {
+    text-align: center;
+}
+
+#download-mp .download-img img {
+    width: 6.67rem;
+}
+/*下载MP 结束*/

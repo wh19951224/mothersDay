@@ -1,0 +1,359 @@
+html,
+body {
+    overflow: hidden;
+}
+div.wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    transition: scrollTop .5s;
+}
+
+#culture-slide-wrapper .swiper-pagination {
+    left: 3.5rem;
+    bottom: 0.25rem;
+}
+
+.color-b {
+    color: #4A90E2;
+}
+
+#top-bg {
+    margin-top: 1.5rem;
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    background: url("/mp/h5/img/culture/img-mp-culture-top-bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+#top-bg .top-bg-intro {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    top: 40%;
+}
+
+[data-dpr="2"] #top-bg .top-bg-intro {
+    font-size: 48px;
+}
+
+[data-dpr="3"] #top-bg .top-bg-intro {
+    font-size: 72px;
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    [data-dpr="2"] #top-bg .top-bg-intro {
+        font-size: 42px;
+    }
+}
+
+/* hi-intro */
+
+#hi-intro {
+    font-family: 'PingFangSC-Light';
+    background-color: #fff;
+    height: 3.4667rem;
+    color: #333;
+}
+
+#hi-intro p {
+    font-size: 28px;
+    text-align: center;
+    line-height: 3.4667rem;
+}
+
+[data-dpr="2"] #hi-intro p {
+    font-size: 56px;
+}
+
+[data-dpr="3"] #hi-intro p {
+    font-size: 84px;
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    [data-dpr="2"] #hi-intro p {
+        font-size: 52px;
+    }
+}
+
+
+/* slogans */
+
+#slogans {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+#slogans .slogans-item {
+    text-align: center;
+    padding: 0.28rem 0;
+}
+
+#slogans .slogans-item:first-child {
+    padding-top: 1rem;
+}
+
+#slogans .slogans-bg-bottom {
+    margin-bottom: -0.08rem;
+}
+
+[data-dpr="2"] #slogans .slogans-bg-bottom {
+    margin-bottom: -0.1rem;
+}
+
+#slogans .slogans-bg-bottom img {
+    width: 100%;
+}
+
+#slogans .slogans-item h1 {
+    line-height: 1.8em;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+[data-dpr="2"] #slogans .slogans-item h1 {
+    font-size: 38px;
+}
+
+[data-dpr="3"] #slogans .slogans-item h1 {
+    font-size: 57px;
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    [data-dpr="2"] #slogans .slogans-item h1 {
+        font-size: 34px;
+    }
+}
+
+#slogans .slogans-item p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'PingFangSC-Light';
+}
+
+[data-dpr="2"] #slogans .slogans-item p {
+    font-size: 28px;
+}
+
+[data-dpr="3"] #slogans .slogans-item p {
+    font-size: 42px;
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    [data-dpr="2"] #slogans .slogans-item p {
+        font-size: 24px;
+    }
+}
+
+
+/* our-culture */
+
+#our-culture {
+    background: #fff;
+}
+
+#our-culture .our-culture-title-wrapper {
+    /*height: 3.8667rem;*/
+    padding: 1rem 0;
+}
+
+#our-culture .our-culture-title {
+    color: #333;
+}
+
+#our-culture .our-culture-title-en {
+    font-family: 'PingFangSC-Light';
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* our-culture-slider */
+
+#culture-slide-wrapper {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 12rem;
+}
+
+[data-dpr="2"] #culture-slide-wrapper {
+    height: 13.33rem;
+}
+
+[data-dpr="3"] #culture-slide-wrapper {
+    height: 13rem;
+}
+
+#culture-slide-wrapper .culture-photo img {
+    width: 100%;
+    height: 5.44rem;
+}
+
+#culture-slide-wrapper .culture-intro {
+    background-color: #fff;
+}
+
+#culture-slide-wrapper .culture-intro .culture-title {
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+#culture-slide-wrapper .culture-intro .culture-title img {
+    width: 102px;
+    height: 50px;
+}
+
+[data-dpr="2"] #culture-slide-wrapper .culture-intro .culture-title img {
+    width: 204px;
+    height: 100px;
+}
+
+[data-dpr="3"] #culture-slide-wrapper .culture-intro .culture-title img {
+    width: 306px;
+    height: 150px;
+}
+
+#culture-slide-wrapper .culture-intro .culture-text {
+    font-family: 'PingFangSC-Light';
+    margin-top: 12px;
+    color: #333;
+    line-height: 1.8em;
+}
+
+.pagination {
+    position: absolute;
+    z-index: 18;
+    bottom: .8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.swiper-pagination-switch {
+    cursor: pointer;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: #ccc;
+    margin-right: 0.2rem;
+}
+
+[data-dpr="2"] .swiper-pagination-switch {
+    width: 12px;
+    height: 12px;
+}
+
+[data-dpr="3"] .swiper-pagination-switch {
+    width: 18px;
+    height: 18px;
+}
+
+.swiper-active-switch {
+    background: #4a90e2;
+    width: 6px;
+    height: 6px;
+    margin-top: 0;
+}
+
+[data-dpr="2"] .swiper-active-switch {
+    width: 12px;
+    height: 12px;
+}
+
+[data-dpr="3"] .swiper-active-switch {
+    width: 18px;
+    height: 18px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+[data-dpr="2"] .fs20 {
+    font-size: 40px;
+}
+
+[data-dpr="3"] .fs20 {
+    font-size: 60px;
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    [data-dpr="2"] .fs20 {
+        font-size: 36px;
+    }
+}
+
+.fs23 {
+    font-size: 23px;
+}
+
+[data-dpr="2"] .fs23 {
+    font-size: 46px;
+}
+
+[data-dpr="3"] .fs23 {
+    font-size: 69px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+[data-dpr="2"] .fs14 {
+    font-size: 28px;
+}
+
+[data-dpr="3"] .fs14 {
+    font-size: 42px;
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    [data-dpr="2"] .fs14 {
+        font-size: 24px;
+    }
+}
+
+.fs28 {
+    font-size: 28px;
+}
+
+[data-dpr="2"] .fs28 {
+    font-size: 56px;
+}
+
+[data-dpr="3"] .fs28 {
+    font-size: 84px;
+}
+
+.h1 {
+    color: #212121;
+}
+
+.h2 {
+    color: #777777;
+}
+
+.mt12 {
+    margin-top: 0.32rem;
+}
+
+.mt30 {
+    margin-top: 0.8rem;
+}
+
+[data-dpr='2'] .middle-one-title {
+    font-size: 40px;
+}
+
+[data-dpr='3'] .middle-one-title {
+    font-size: 60px;
+}
